@@ -7,21 +7,15 @@ Tento program simuluje hru kostky. Po zmáčknutí klávesy ENTER se vygeneruje 
 
 ![pravidla](https://github.com/TomasHoncik/Kostky/assets/147615167/81f9bbe0-c32a-401d-9db0-e286fda370e1)
 
-## Kombinace a body
-- **Postupka (1,2,3,4,5,6):** 1500 bodů
-- **Jednička (1):** 100 bodů (1x), 1000 bodů (3x), 2000 bodů (4x), 4000 bodů (5x), 8000 bodů (6x)
-- **Pětka (5):** 50 bodů (1x)
+## Pojmy
+- **Postupka** - pokud hráči padnou všechna čísla 1-6 jedná se o postupku a získává 1500 bodů
+- **3 dvojice** - pokud hráči padnou 3 dvojice (např. 11,22,33) získává 1000 bodů 
 
-## Dvojice
-- Hráč může získat bonusových 1000 bodů za tři dvojice.
 
-## Spuštění programu
-- Spusť program a začni házet kostkou stisknutím klávesy ENTER.
-
-## Výstup
-- Pokud hráč získá postupku, získá 1500 bodů a hra končí.
-- V případě jiných kombinací se přidělují body dle pravidel.
+## Sčítání bodů
+ Pokud hráč získá postupku, získá 1500 bodů a hra končí.
+ Pokud hráč získá 3 dvojice, získá 1000 bodů a hra končí.
+ V případě jiných kombinací se přidělují body dle pravidel.
 
 ## Ukončení programu
-- Pro ukončení programu stiskni klávesu ENTER.
-
+Program se ukončí stisknutím klávesy **ENTER**.
